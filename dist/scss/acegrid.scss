@@ -1,0 +1,65 @@
+/* Slade 12-colunm responcive grid system with own reset */
+$row-columns: 12;
+
+$sm: 48rem;
+$md: 62rem;
+$lg: 75rem;
+$scr-size: 64rem;
+
+*,
+*:before,
+*:after{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    padding: 0 1rem;
+    max-width: $scr-size;
+    width: 100%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+	float: left;
+	padding: 0.5em;
+	height: auto;
+}
+
+//For small devices
+@for $i from 1 through $row-columns{
+  .col-xs-#{$i}{
+    width: $i / $row-columns * 100%;
+  }
+}
+
+@media (min-width: $sm) {
+  @for $i from 1 through $row-columns {
+    .col-sm-#{$i} {
+        width: $i / $row_columns * 100%;
+    }
+  }
+}
+
+@media (min-width: $md) {
+  @for $i from 1 through $row-columns {
+    .col-md-#{$i} {
+        width: $i / $row_columns * 100%;
+    }
+  }
+}
+
+@media (min-width: $lg) {
+  @for $i from 1 through $row-columns {
+    .col-lg-#{$i} {
+        width: $i / $row_columns * 100%;
+    }
+  }
+}

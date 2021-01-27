@@ -1,0 +1,143 @@
+.box{
+   	font-size: 13px;
+	text-align: center;
+    color: #222;
+    background-color: #dfeff7;
+    border: 1px solid #40cef9!important;
+}
+                        
+  html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Verdana;
+  }
+
+  *, *:before, *:after {
+  line-height: 1.5;
+  box-sizing: inherit;
+  }
+
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  }
+
+  ol, ul {
+  list-style: none;
+  }
+
+  img {
+  max-width: 100%;
+  height: auto;
+  }
+        
+  .header-title{
+        font-size: 2em!important;
+        color: #fff!important;
+  }       
+
+  .grid-header1{
+        font-size: 22px;
+        color: #444;
+        text-align: center;
+        margin-bottom: 32px;
+        margin-top: 32px;
+        letter-spacing: 1px;
+  }
+
+  .sub-title{
+        font-size: 18px;
+        color: #e7faff;
+        margin-top: 13px;
+        margin-bottom: 13px;
+  }
+
+  .btn-download{
+        display: inline-block;
+        background-color: transparent;
+        padding: 8px 12px;
+        color: #fff;
+        border-radius: 3px;
+        border: 10px soild #fff!important;
+        transition-duration: 0.4s;
+  }
+
+  .btn-download a{
+        font-size: 16px;
+        color: inherit;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        outline: 0;
+  }
+
+  .btn-download:hover{
+        background-color: #fff;
+        color: #222;
+  }
+                
+  #container-border {
+        border: 1px solid #fff;
+  }
+                        
+  .header-huge{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+        background: #7067c6;
+  }
+
+  .par{
+        margin: 0 auto;
+        max-width: 640px;
+  }
+
+  .par p{
+        letter-spacing: 1px;
+        line-height: 1.6;
+        margin-top: 12px;
+        margin-bottom: 12px;
+  }
+
+  .code1{
+        line-height: 1.6;
+        word-spacing: normal;
+        word-break: break-all;
+        border: 1px solid #38a800;
+        padding: 4px 0 4px 8px;
+        border-left: 6px solid #38a800;
+  }
+
+.start{
+	font-size: 26px;
+	text-align: center;
+	margin-bottom: 24px;
+	margin-top: 32px;
+	letter-spacing: 1px;
+}
+
+.dload2{
+	display: inline-block;
+	padding: 8px 12px;
+	background-color: #666;
+	color: #fff;
+	border-radius: 3px;
+	text-align: center;
+	text-decoration: none;
+	outline: 0;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.dload2:hover{
+	background-color: #000;
+}
+
+.dload-container{
+	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
